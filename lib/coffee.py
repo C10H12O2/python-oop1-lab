@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 class Coffee:
-    def __init__ (self, size, pice):
+    def __init__(self, size, price): 
         self.size = size
-        self.price = pice
+        self.price = price
         
     @property
     def size(self):
